@@ -52,11 +52,7 @@ export const metadata: Metadata = {
     description: "Physics-informed verification and validation for autonomous aerospace systems. Automated safety validation for NASA, DoD, and commercial space missions.",
     images: ["/og-image.jpg"],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+  metadataBase: new URL('https://pearl-labs.com'),
   verification: {
     google: "your-google-verification-code",
   },

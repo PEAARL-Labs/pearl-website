@@ -1,4 +1,5 @@
 import Card from '../ui/Card'
+import TimelineVisualization from '../visualizations/TimelineVisualization'
 
 export default function HowItWorks() {
   return (
@@ -85,6 +86,11 @@ pearl connect --sim custom`}
                 </div>
               </Card>
             </div>
+          </div>
+          
+          {/* Process Timeline */}
+          <div className="mt-16 mb-16">
+            <TimelineVisualization />
           </div>
           
           {/* Integration showcase */}

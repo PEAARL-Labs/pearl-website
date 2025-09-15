@@ -1,4 +1,5 @@
 import Card from '../ui/Card'
+import ComparisonChart from '../visualizations/ComparisonChart'
 
 export default function Problem() {
   return (
@@ -81,6 +82,11 @@ export default function Problem() {
                 </ul>
               </div>
             </div>
+          </div>
+          
+          {/* Interactive Comparison */}
+          <div className="mb-16">
+            <ComparisonChart />
           </div>
           
           {/* Market context */}
